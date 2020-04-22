@@ -75,5 +75,27 @@ background-color: rgb(26, 188, 156);
 text-align: center;
   margin: 0 auto;
   margin-top: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
+.product{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  color: #fff;
+}
+.order-product{
+  float: left;
+  width: 255px;
+  background-color:#e9f0fd ;
+}
+.order-product:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.order-product:not(:nth-last-child(-n+4)) {
+ margin-bottom: 30px;}
+ .box{
+  background: linear-gradient(90deg, #323232 78%, #8c8c8c 22%); 
+  padding: 13px 14px; 
+} 
+ 
