@@ -9,6 +9,7 @@ html {
 body {
   margin: 0 auto;
   color: #394143;
+  font-family: 'Open Sans', sans-serif; 
 }
 .conteiner {
   width: 1110px;
@@ -30,7 +31,7 @@ body {
   text-decoration: none;
   color: #8c8c8c;
 }
-.first-style-menu {
+.style-logo {
   float: left;
   margin-right: 572px;
 }
@@ -46,7 +47,7 @@ body {
   color: rgb(26, 188, 156);
 }
 
-.first-style-menu::first-letter {
+.style-logo::first-letter {
   color: rgb(26, 188, 156);
 }
 .style-menu {
@@ -81,7 +82,7 @@ h2 {
   margin: 0 auto;
 }
 
-.line::before {
+.line::after {
   content: "";
   display: block;
   width: 164px;
@@ -117,14 +118,25 @@ h2 {
 .order-product a {
   color: #fff;
   display: block;
-  width: 75%;
-  text-decoration: none;
+   text-decoration: none;
   font-size: 16px;
+}
+
+.product-nime{
+   float: right;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+ line-height: 0px;
+
 }
 .price {
   float: right;
   font-weight: 600;
-  margin-top: -20px;
+  line-height: 0px; 
+  margin: 0;
+  padding: 0;
+ margin-top: -10px;
 }
 .order-product:hover .box {
   background: linear-gradient(90deg, #1abc9c 80%, #7fd9c7 20%);
@@ -154,7 +166,7 @@ h2 {
   color: rgb(85, 82, 82);
   line-height: 1.444;
 }
-.news-title:after {
+.news-title::after {
   content: "";
   display: block;
   width: 152px;
@@ -169,10 +181,20 @@ h2 {
   margin: 0 auto;
   list-style: none;
 }
-.paragraph {
-  line-height: 1.8;
-  margin-bottom: 16px;
-}
+.news-title { 
+  text-transform: none; 
+  
+
+} 
+.paragraph { 
+  
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 82, 82);
+    line-height: 1.857;
+    font-weight: 600;
+      }
+      
 .heading {
   font-size: 48px;
   font-family: "Roboto";
@@ -181,7 +203,8 @@ h2 {
   line-height: 0.667;
   text-align: center;
 }
-.botton {
+
+.botton-item {
   width: 156px;
   height: 52px;
   background-color: rgb(26, 188, 156);
@@ -189,8 +212,6 @@ h2 {
   border-radius: 3px;
   outline: none;
   cursor: pointer;
-}
-.botton-item {
   display: inline-block;
   color: #fff;
   font-size: 16px;
@@ -199,7 +220,7 @@ h2 {
   line-height: 1.625;
   text-align: center;
   padding-top: 12px;
-  padding-left: 45px;
+ 
 }
 .main{
   padding-bottom: 80px;
