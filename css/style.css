@@ -9,7 +9,7 @@ html {
 body {
   margin: 0 auto;
   color: #394143;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: "Open Sans", sans-serif;
 }
 .conteiner {
   width: 1110px;
@@ -118,25 +118,24 @@ h2 {
 .order-product a {
   color: #fff;
   display: block;
-   text-decoration: none;
+  text-decoration: none;
   font-size: 16px;
 }
 
-.product-nime{
-   float: right;
+.product-nime {
+  float: right;
   font-weight: 600;
   margin: 0;
   padding: 0;
- line-height: 0px;
-
+  line-height: 0px;
 }
 .price {
   float: right;
   font-weight: 600;
-  line-height: 0px; 
+  line-height: 0px;
   margin: 0;
   padding: 0;
- margin-top: -10px;
+  margin-top: -10px;
 }
 .order-product:hover .box {
   background: linear-gradient(90deg, #1abc9c 80%, #7fd9c7 20%);
@@ -181,20 +180,17 @@ h2 {
   margin: 0 auto;
   list-style: none;
 }
-.news-title { 
-  text-transform: none; 
-  
+.news-title {
+  text-transform: none;
+}
+.paragraph {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+  font-weight: 600;
+}
 
-} 
-.paragraph { 
-  
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(85, 82, 82);
-    line-height: 1.857;
-    font-weight: 600;
-      }
-      
 .heading {
   font-size: 48px;
   font-family: "Roboto";
@@ -220,8 +216,7 @@ h2 {
   line-height: 1.625;
   text-align: center;
   padding-top: 12px;
- 
 }
-.main{
+.main {
   padding-bottom: 80px;
 }
